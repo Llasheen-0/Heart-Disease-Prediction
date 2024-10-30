@@ -10,21 +10,21 @@ The dataset contains health-related features relevant to predicting heart diseas
 
 1. *Importing Libraries*:
 The notebook utilizes the following Python libraries:
- -numpy, pandas: For data manipulation
- -seaborn, matplotlib: For data visualization
- -scikit-learn: For model building, evaluation, and feature selection
+-numpy, pandas: For data manipulation
+-seaborn, matplotlib: For data visualization
+-scikit-learn: For model building, evaluation, and feature selection
 
-2. *Loading the Data*:
+3. *Loading the Data*:
 -The dataset is loaded into a pandas DataFrame for exploration and preprocessing.
 
-3. *Data Preprocessing*:
+4. *Data Preprocessing*:
 -Handling missing values and removing duplicates
 -Scaling numerical features to improve model performance
 
-4. *Feature Selection*:
+5. *Feature Selection*:
 -Recursive Feature Elimination (RFE) and Recursive Feature Elimination with Cross-Validation (RFECV) are applied to identify the most important features.
 
-5. *Model Training*:
+6. *Model Training*:
 The notebook applies various machine learning models:
 -Logistic Regression
 -Support Vector Machine (SVM)
