@@ -9,35 +9,34 @@ The dataset contains health-related features relevant to predicting heart diseas
 ## Notebook Structure
 
 1. *Importing Libraries*:
-The notebook utilizes the following Python libraries:
-- numpy, pandas: For data manipulation
-- seaborn, matplotlib: For data visualization
-- scikit-learn: For model building, evaluation, and feature selection
+   The notebook utilizes the following Python libraries:
+   - numpy, pandas: For data manipulation
+   - seaborn, matplotlib: For data visualization
+   - scikit-learn: For model building, evaluation, and feature selection
 
-3. *Loading the Data*:
-- The dataset is loaded into a pandas DataFrame for exploration and preprocessing.
+3. *Loading the Data*: The dataset is loaded into a pandas DataFrame for exploration and preprocessing.
 
 4. *Data Preprocessing*:
-- Handling missing values and removing duplicates
-- Scaling numerical features to improve model performance
+   - Handling missing values and removing duplicates
+   - Scaling numerical features to improve model performance
 
 5. *Feature Selection*:
-- Recursive Feature Elimination (RFE) and Recursive Feature Elimination with Cross-Validation (RFECV) are applied to identify the most important features.
+   - Recursive Feature Elimination (RFE) and Recursive Feature Elimination with Cross-Validation (RFECV) are applied to identify the most important features.
 
 6. *Model Training*:
-The notebook applies various machine learning models:
-- Logistic Regression
-- Support Vector Machine (SVM)
-- Naive Bayes Classifier
-- Random Forest Classifier
+   The notebook applies various machine learning models:
+   - Logistic Regression
+   - Support Vector Machine (SVM)
+   - Naive Bayes Classifier
+   - Random Forest Classifier
 
 Each model is trained to predict the likelihood of heart disease.
 
 6. *Model Evaluation*:
    The performance of each model is evaluated using metrics such as:
-- Accuracy Score
-- Confusion Matrix
-- Classification Report
+   - Accuracy Score
+   - Confusion Matrix
+   - Classification Report
 
 ## Results
 The project achieves high accuracy in predicting heart disease risk. Each model's precision, recall, and F1-score are evaluated to determine the best-performing model.
